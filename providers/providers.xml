@@ -1,0 +1,1906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+
+
+    <!-- GOOGLE maps 
+	has a new tile URL system, needs to be updated!!! -->
+    <provider id="10020" type="0" visible="true" background="-1">
+        <name>Google</name>
+        <mode>Classic</mode>
+        <url><![CDATA[http://mt{s}.google.com/vt/lyrs=m@207000000&hl=en&x={x}&y={y}&z={z}]]></url>
+        <serverPart>0;1</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <countries>World</countries>	
+        <attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+    </provider>
+	<!-- not working,  
+    <provider id="10021" type="0" visible="true" background="-1">
+        <name>Google</name>
+        <mode>Satellite</mode>
+        <url><![CDATA[http://khm{s}.google.com/kh/v=142&src=app&hl=en&x={x}&y={y}&z={z}]]></url>
+        <serverPart>0;1</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>28</zoomMax>
+        <tileSize>256</tileSize>
+        <countries>World</countries>
+        <attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+    </provider>-->
+    <provider id="10022" type="0" visible="true" background="-1">
+        <name>Google</name>
+        <mode>Hybrid</mode>
+        <url><![CDATA[http://mt{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}]]></url>
+        <serverPart>0;1</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>28</zoomMax>
+        <tileSize>256</tileSize>
+        <countries>World</countries>
+        <attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+    </provider>
+    <provider id="10023" type="0" visible="true" background="-1">
+        <name>Google</name>
+        <mode>Terrain</mode>
+        <url><![CDATA[http://mt{s}.google.com/vt/lyrs=t@130,r@207000000&hl=en&src=api&x={x}&y={y}&z={z}]]></url>
+        <serverPart>0;1</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+        <countries>World</countries>
+        <attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+    </provider>
+    <!-- not working
+	<provider id="10024" type="0" visible="false" background="-1">
+        <name>Google</name>
+        <mode>Korea</mode>
+        <countries>Korea</countries>
+        <url><![CDATA[http://mt{s}.gmaptiles.co.kr/mt/v=kr1.12&hl=en&x={x}&y={y}&z={z}]]></url>
+        <serverPart>0;1</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <countries>Korea</countries>
+        <attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
+        <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider> -->
+    <provider id="11715" type="0" visible="true" background="-1">
+        <name>Google</name>
+        <mode>Bike</mode>
+        <url><![CDATA[http://mt1.google.com/vt/lyrs=m@121,bike&x={x}&y={y}&z={z}]]></url>
+        <serverPart>0;1</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <countries>World</countries>
+        <attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+    </provider>
+    <provider id="11716" type="0" visible="true" background="-1">
+        <name>Google</name>
+        <mode>Transit</mode>
+        <url><![CDATA[http://mt1.google.com/vt/lyrs=m@121,transit|vm:1&opts=r&x={x}&y={y}&z={z}]]></url>
+        <serverPart>0;1</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <countries>World</countries>
+        <attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+    </provider>
+
+
+    <!-- OVI maps 
+	working, but is now part of HERE.com (think it will be deprecated some time... -->
+    <provider id="10030" type="0" visible="true" background="-1">
+        <name>OVI-Nokia maps</name>
+        <mode>Classic</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://maptile.mapplayer1.maps.svc.ovi.com/maptiler/maptile/newest/normal.day/{z}/{x}/{y}/256/png8]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c) NAVTEQ, NavInfo Co Ltd., THTC 2011 <a href="http://maps.nokia.com/services/terms">Terms of use</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://maps.nokia.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10031" type="0" visible="true" background="-1">
+        <name>OVI-Nokia maps</name>
+        <mode>Satellite</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://maptile.mapplayer1.maps.svc.ovi.com/maptiler/maptile/newest/satellite.day/{z}/{x}/{y}/256/png8]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c) NAVTEQ, NavInfo Co Ltd., THTC 2011 <a href="http://maps.nokia.com/services/terms">Terms of use</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://maps.nokia.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10032" type="0" visible="true" background="-1">
+        <name>OVI-Nokia maps</name>
+        <mode>Terrain</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://maptile.mapplayer1.maps.svc.ovi.com/maptiler/maptile/newest/terrain.day/{z}/{x}/{y}/256/png8]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c) NAVTEQ, NavInfo Co Ltd., THTC 2011 <a href="http://maps.nokia.com/services/terms">Terms of use</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://maps.nokia.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+
+
+    <!-- YAHOO maps 
+	maps.yahoo.com shows same tiles as HERE.com -->
+	<!-- removed! sorry!!! 
+    <provider id="10040" type="4" visible="true" background="-1">
+        <name>Yahoo</name>
+        <mode>Classic</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://us.maps1.yimg.com/us.tile.yimg.com/tl?v=4.1&x={x}&y={y}&z={z}]]></url>
+        <zoomPart>26-{z}</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>25</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[<a href="http://info.yahoo.com/legal/us/yahoo/maps/globalmaps/atos.html">Terms of use</a> <a href="http://info.yahoo.com/privacy/us/yahoo/maps/details.html">Privacy</a> <a href="http://feedback.help.yahoo.com/feedback.php?.src=MAPS">Feedback</a> (c) 2011 Yahoo! Inc]]></attribution>
+        <extraHeader><![CDATA[Referer#http://maps.yahoo.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10041" type="4" visible="true" background="-1">
+        <name>Yahoo</name>
+        <mode>Satellite</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://us.maps3.yimg.com/aerial.maps.yimg.com/ximg?v=1.7&t=a&x={x}&y={y}&z={z}]]></url>
+        <zoomPart>26-{z}</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>25</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[<a href="http://info.yahoo.com/legal/us/yahoo/maps/globalmaps/atos.html">Terms of use</a> <a href="http://info.yahoo.com/privacy/us/yahoo/maps/details.html">Privacy</a> <a href="http://feedback.help.yahoo.com/feedback.php?.src=MAPS">Feedback</a> (c) 2011 Yahoo! Inc]]></attribution>
+        <extraHeader><![CDATA[Referer#http://maps.yahoo.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider> 
+	-->
+
+
+    <!-- BING maps 
+	seems to be up to date -->
+    <provider id="10050" type="5" visible="true" background="-1">
+        <name>Bing</name>
+        <mode>Road</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://ecn.t0.tiles.virtualearth.net/tiles/r{c}?g=604&mkt=en-us&lbl=l1&stl=h&shading=hill&n=z]]></url>
+        <zoomPart>25-{z}</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>28</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© 2011 Microsoft | <a href="http://go.microsoft.com/fwlink/?LinkId=74170">Privacy</a> | <a href="http://g.msn.com/0TO_/enww">Legal</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://www.bing.com/maps/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10051" type="5" visible="true" background="-1">
+        <name>Bing</name>
+        <mode>Hybrid</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://ecn.t0.tiles.virtualearth.net/tiles/h{c}.jpeg?g=604&mkt=en-us&n=z]]></url>
+        <zoomPart>25-{z}</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>25</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© 2011 Microsoft | <a href="http://go.microsoft.com/fwlink/?LinkId=74170">Privacy</a> | <a href="http://g.msn.com/0TO_/enww">Legal</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://www.bing.com/maps/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10052" type="5" visible="false" background="-1">
+        <name>Bing</name>
+        <mode>London A-Z</mode>
+        <countries>England</countries>
+        <url><![CDATA[http://ecn.t3.tiles.virtualearth.net/tiles/r{c}.png?g=604&productSet=mmCB]]></url>
+        <zoomPart>25-{z}</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>25</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© 2011 Microsoft | <a href="http://go.microsoft.com/fwlink/?LinkId=74170">Privacy</a> | <a href="http://g.msn.com/0TO_/enww">Legal</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://www.bing.com/maps/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10053" type="5" visible="true" background="-1">
+        <name>Bing</name>
+        <mode>OS Maps</mode>
+        <countries>England</countries>
+        <url><![CDATA[http://ecn.t3.tiles.virtualearth.net/tiles/r{c}.png?g=604&productSet=mmOS]]></url>
+        <zoomPart>25-{z}</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© 2011 Microsoft | <a href="http://go.microsoft.com/fwlink/?LinkId=74170">Privacy</a> | <a href="http://g.msn.com/0TO_/enww">Legal</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://www.bing.com/maps/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10054" type="5" visible="true" background="-1">
+        <name>Bing</name>
+        <mode>Satellite</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://ecn.t0.tiles.virtualearth.net/tiles/a{c}.jpeg?g=604&mkt=en-us&n=z]]></url>
+        <zoomPart>25-{z}</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>25</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© 2011 Microsoft | <a href="http://go.microsoft.com/fwlink/?LinkId=74170">Privacy</a> | <a href="http://g.msn.com/0TO_/enww">Legal</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://www.bing.com/maps/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+
+    <!-- BergFex Austria Zoom 8-13 -->
+    <provider id="10060" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 8bis13</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/{z}/{z}_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>16</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+    <!-- BergFex Austria Zomm 14 -->
+    <provider id="10061" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 14-86</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/14/86/14_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>22</zoomMin>
+        <zoomMax>22</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+    <provider id="10062" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 14-87</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/14/87/14_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>22</zoomMin>
+        <zoomMax>22</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+    <provider id="10063" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 14-88</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/14/88/14_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>22</zoomMin>
+        <zoomMax>22</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+    <provider id="10064" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 14-89</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/14/89/14_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>22</zoomMin>
+        <zoomMax>22</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+    <!-- BergFex Austria Zoom 15 -->
+    <provider id="10065" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 15-172</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/15/172/15_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>23</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+    <provider id="10066" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 15-173</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/15/173/15_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>23</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+    <provider id="10067" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 15-174</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/15/174/15_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>23</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+    <provider id="10068" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 15-175</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/15/175/15_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>23</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+    <provider id="10069" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 15-176</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/15/176/15_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>23</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+    <provider id="10070" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 15-177</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/15/177/15_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>23</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+    <provider id="10071" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 15-178</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/15/178/15_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>23</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+    <provider id="10072" type="0" visible="true" background="-1">
+        <name>Bergfex</name>
+        <mode>Topo 15-179</mode>
+        <countries>Oesterreich</countries>
+        <url><![CDATA[http://bergfex.at/images/amap/15/179/15_{x}_{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>23</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+    </provider>
+
+
+    <!-- YANDEX maps -->
+    <provider id="10080" type="2" visible="true" background="-1">
+        <name>Yandex</name>
+        <mode>Classic</mode>
+        <countries>East Europe</countries>
+        <url><![CDATA[http://vec{s}.maps.yandex.net/tiles?l=map&v=4.24.2&x={x}&y={y}&z={z}]]></url>
+        <serverPart>01;02;03;04</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ЗАО «ТГА», 2006, © ВТУ ГШ ВС РФ, © ЗАО «Резидент»]]></attribution>
+        <extraHeader><![CDATA[Referer#http://maps.yandex.ru/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10081" type="2" visible="true" background="-1">
+        <name>Yandex</name>
+        <mode>Satellite</mode>
+        <countries>East Europe</countries>
+        <url><![CDATA[http://sat{s}.maps.yandex.net/tiles?l=sat&v=3.198.0&x={x}&y={y}&z={z}]]></url>
+        <serverPart>01;02;03;04</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ЗАО «ТГА», 2006, © ВТУ ГШ ВС РФ, © ЗАО «Резидент»]]></attribution>
+        <extraHeader><![CDATA[Referer#http://maps.yandex.ru/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+	<!-- Hybrid not working! someone needs to create a base map plus overlay
+    <provider id="10082" type="2" visible="true" background="10081">
+        <name>Yandex</name>
+        <mode>Hybrid</mode>
+        <countries>East Europe</countries>
+        <url><![CDATA[http://vec{s}.maps.yandex.net/tiles?l=skl&v=4.6.9&x={x}&y={y}&z={z}&lang=ru_RU]]></url>
+        <serverPart>01;02;03;04</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ЗАО «ТГА», 2006, © ВТУ ГШ ВС РФ, © ЗАО «Резидент»]]></attribution>
+        <extraHeader><![CDATA[Referer#http://maps.yandex.ru/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+	 -->
+
+    <!-- ENIRO maps -->
+    <provider id="10090" type="1" visible="true" background="-1">
+        <name>Eniro</name>
+        <mode>Classic</mode>
+        <countries>North Europe</countries>
+        <url><![CDATA[http://map01.eniro.no/geowebcache/service/tms1.0.0/map/{z}/{x}/{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>12</zoomMin>
+        <zoomMax>25</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© Karttakeskus. Lantmäteriet/Metria]]></attribution>
+        <extraHeader><![CDATA[Referer#http://kartor.eniro.se/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10091" type="1" visible="true" background="-1">
+        <name>Eniro</name>
+        <mode>Aerial</mode>
+        <countries>North Europe</countries>
+        <url><![CDATA[http://map01.eniro.no/geowebcache/service/tms1.0.0/aerial/{z}/{x}/{y}.jpeg]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>12</zoomMin>
+        <zoomMax>28</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© Karttakeskus. Lantmäteriet/Metria]]></attribution>
+        <extraHeader><![CDATA[Referer#http://kartor.eniro.se/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10092" type="1" visible="true" background="10091">
+        <name>Eniro</name>
+        <mode>Hybrid</mode>
+        <countries>North Europe</countries>
+        <url><![CDATA[http://map01.eniro.no/geowebcache/service/tms1.0.0/hybrid/{z}/{x}/{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>12</zoomMin>
+        <zoomMax>28</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© Karttakeskus. Lantmäteriet/Metria]]></attribution>
+        <extraHeader><![CDATA[Referer#http://kartor.eniro.se/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10093" type="1" visible="true" background="-1">
+        <name>Eniro</name>
+        <mode>Nautical</mode>
+        <countries>North Europe</countries>
+        <url><![CDATA[http://map01.eniro.no/geowebcache/service/tms1.0.0/nautical/{z}/{x}/{y}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>12</zoomMin>
+        <zoomMax>24</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© Karttakeskus. Lantmäteriet/Metria]]></attribution>
+        <extraHeader><![CDATA[Referer#http://kartor.eniro.se/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+
+	<!-- OUTDOOR ACTIVE maps id="10110" id="10113"-->
+	<!-- remove me...
+	<provider id="10110" type="0" visible="true" background="-1">
+		<name>Outdoor Active</name>
+		<mode>Germany,Austria,South Tyrol</mode>
+		<countries>Europe</countries>
+		<url><![CDATA[http://s{s}.outdooractive.com/map/AlpsteinSummer/{z}/{x}/{y}.png]]></url>
+		<serverPart>0;1;2;3</serverPart>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>16</zoomMin>
+		<zoomMax>25</zoomMax>
+		<tileSize>256</tileSize>
+		<attribution><![CDATA[Map data ©2011 Tele Atlas <a href="http://www.outdooractive.com/de/agb.html#15">© outdooractive.com</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#http://www.outdooractive.com/de/tourismus-region/deutschland/hochschwarzwald/]]></extraHeader>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0]]></extraHeader>
+	</provider>
+	<provider id="10113" type="0" visible="true" background="-1">
+		<name>Outdoor Active</name>
+		<mode>Switzerland</mode>
+		<countries>Europe</countries>
+		<url><![CDATA[http://s0.outdooractive.com/ch/map/{z}/{x}/{y}.png]]></url> 
+		<serverPart>0;1;2;3</serverPart>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>18</zoomMin>
+		<zoomMax>25</zoomMax>
+		<tileSize>256</tileSize>
+		<attribution><![CDATA[Map data ©2011 Tele Atlas <a href="http://www.outdooractive.com/de/agb.html#15">© outdooractive.com</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#http://www.outdooractive.com/de/tourismus-region/deutschland/hochschwarzwald/]]></extraHeader>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:23.0) Gecko/20100101 Firefox/23.0]]></extraHeader>
+	</provider>
+	-->
+
+	
+    <!-- NEARMAP maps id="10150"-->
+	<!-- no longer available, test it if you want!!!
+    <provider id="10150" type="0" visible="true" background="-1">
+        <name>NearMap</name>
+        <mode>backgroundPhoto</mode>
+        <countries>Australia</countries>
+        <url><![CDATA[http://web{s}.nearmap.com/maps/hl=en&x={x}&y={y}&z={z}&nml=Vert]]></url>
+        <serverPart>0;1;2;3</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[<a href="http://www.nearmap.com/legal/legal">Legal</a> | <a href="http://www.openstreetmap.org/">Street Map data courtesy of openstreetmap</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://www.nearmap.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10151" type="0" visible="true" background="-1">
+        <name>NearMap</name>
+        <mode>backgroundTerrain</mode>
+        <countries>Australia</countries>
+        <url><![CDATA[http://web{s}.nearmap.com/maps/hl=en&x={x}&y={y}&z={z}&nml=Dem]]></url>
+        <serverPart>0;1;2;3</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>25</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[<a href="http://www.nearmap.com/legal/legal">Legal</a> | <a href="http://www.openstreetmap.org/">Street Map data courtesy of openstreetmap</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://www.nearmap.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10152" type="0" visible="true" background="10150">
+        <name>NearMap</name>
+        <mode>Hybrid</mode>
+        <countries>Australia</countries>
+        <url><![CDATA[http://web{s}.nearmap.com/maps/hl=en&x={x}&y={y}&z={z}&nml=MapT]]></url>
+        <serverPart>0;1;2;3</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[<a href="http://www.nearmap.com/legal/legal">Legal</a> | <a href="http://www.openstreetmap.org/">Street Map data courtesy of openstreetmap</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://www.nearmap.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10153" type="0" visible="true" background="-1">
+        <name>NearMap</name>
+        <mode>StreetMap</mode>
+        <countries>Australia</countries>
+        <url><![CDATA[http://web{s}.nearmap.com/kh/v=nm&hl=en&x={x}&y={y}&z={z}&nml=Map_]]></url>
+        <serverPart>0;1;2;3</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[<a href="http://www.nearmap.com/legal/legal">Legal</a> | <a href="http://www.openstreetmap.org/">Street Map data courtesy of openstreetmap</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://www.nearmap.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10154" type="0" visible="true" background="10151">
+        <name>NearMap</name>
+        <mode>Terrain</mode>
+        <countries>Australia</countries>
+        <url><![CDATA[http://web{s}.nearmap.com/maps/hl=en&x={x}&y={y}&z={z}&nml=MapT]]></url>
+        <serverPart>0;1;2;3</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>25</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[<a href="http://www.nearmap.com/legal/legal">Legal</a> | <a href="http://www.openstreetmap.org/">Street Map data courtesy of openstreetmap</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://www.nearmap.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+	-->
+
+    <!-- AERO maps id="10160"-->
+	<!-- Offline!!! read more: http://runwayfinder.blogspot.de/ 
+    <provider id="10160" type="0" visible="true" background="-1">
+        <name>Aero</name>
+        <mode>IFR</mode>
+        <countries>United states</countries>
+        <url><![CDATA[http://runwayfinder.com/media/ifrcharts/?x={x}&y={y}&z={z}]]></url>
+        <zoomPart>25-{z}</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>25</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[Chart ©2006-2010 RunwayFinder - <a href="http://www.google.com/intl/en_ALL/help/terms_maps.html">Terms of use</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://runwayfinder.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10161" type="0" visible="true" background="-1">
+        <name>Aero</name>
+        <mode>IFRH</mode>
+        <countries>United states</countries>
+        <url><![CDATA[http://runwayfinder.com/media/ifrhicharts/?x={x}&y={y}&z={z}]]></url>
+        <zoomPart>25-{z}</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[Chart ©2006-2010 RunwayFinder - <a href="http://www.google.com/intl/en_ALL/help/terms_maps.html">Terms of use</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://runwayfinder.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10162" type="0" visible="true" background="-1">
+        <name>Aero</name>
+        <mode>VFR</mode>
+        <countries>United states</countries>
+        <url><![CDATA[http://runwayfinder.com/media/charts/?x={x}&y={y}&z={z}]]></url>
+        <zoomPart>25-{z}</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[Chart ©2006-2010 RunwayFinder - <a href="http://www.google.com/intl/en_ALL/help/terms_maps.html">Terms of use</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://runwayfinder.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+	-->
+
+    <!-- AMUDANAN maps -->
+    <provider id="10190" type="0" visible="false" background="-1">
+        <name>Amudanan</name>
+        <mode>Topo</mode>
+        <countries>Israel</countries>
+        <url><![CDATA[http://amudanan.co.il/tiles/I50_0908_4by4_copyrighted/Z{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>16</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[<a href="http://mapi.gov.il/">Terms of use</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://amudanan.co.il/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10191" type="0" visible="true" background="10190">
+        <name>Amudanan</name>
+        <mode>Tracks</mode>
+        <countries>Israel</countries>
+        <url><![CDATA[http://amudanan.co.il/services/ajax.php?actions=gettile&z={z}&y={y}&x={x}&type=png&showpublicpoints=false&shvilim=true&copyrighted=true]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>16</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[<a href="http://mapi.gov.il/">Terms of use</a>]]></attribution>
+        <extraHeader><![CDATA[Accept-Encoding#none]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://amudanan.co.il/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10192" type="0" visible="true" background="-1">
+        <name>Amudanan</name>
+        <mode>PEF-1880</mode>
+        <countries>Israel</countries>
+        <url><![CDATA[http://amudanan.co.il/tiles/PEF_0x1/Z{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>16</zoomMin>
+        <zoomMax>23</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[<a href="http://mapi.gov.il/">Terms of use</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://amudanan.co.il/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+
+
+    <!-- Statkart Norway -->
+    <provider id="10200" type="0" visible="true" background="-1">
+        <name>Statkart</name>
+        <mode>Topo</mode>
+        <countries>Norway</countries>
+        <url><![CDATA[http://opencache.statkart.no/gatekeeper/gk/gk.open_gmaps?layers=toporaster2&zoom={z}&x={x}&y={y}]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>24</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c) Statkart.no Kartverket]]></attribution>
+        <extraHeader><![CDATA[Referer#http://statkart.no/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+
+	<!-- haven't checked any ESRI maps at all!-->
+    <!-- ESRI maps World-->
+    <provider id="10301" type="0" visible="true" background="-1">
+        <name>ESRI World</name>
+        <mode>Street</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10302" type="0" visible="true" background="-1">
+        <name>ESRI World</name>
+        <mode>Satellite</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10303" type="0" visible="false" background="10302">
+        <name>ESRI World</name>
+        <mode>Satelite+Places</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10304" type="0" visible="true" background="10303">
+        <name>ESRI World</name>
+        <mode>Hybrid</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10305" type="0" visible="true" background="-1">
+        <name>ESRI World</name>
+        <mode>NatGeo</mode>
+        <countries>World, USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>24</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10306" type="0" visible="true" background="-1">
+        <name>ESRI World</name>
+        <mode>Topo</mode>
+        <countries>World, USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10307" type="0" visible="true" background="-1">
+        <name>ESRI World</name>
+        <mode>Terrain</mode>
+        <countries>World, USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10308" type="0" visible="true" background="-1">
+        <name>ESRI World</name>
+        <mode>Relief</mode>
+        <countries>World, USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10309" type="0" visible="true" background="-1">
+        <name>ESRI World</name>
+        <mode>Physical</mode>
+        <countries>World, USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>16</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10310" type="0" visible="true" background="-1">
+        <name>ESRI World</name>
+        <mode>Ocean</mode>
+        <countries>World, USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <!-- ESRI maps special -->
+    <provider id="10401" type="0" visible="false" background="-1">
+        <name>ESRI special</name>
+        <mode>World Reference Overlay</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Reference_Overlay/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>20</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10402" type="0" visible="false" background="-1">
+        <name>ESRI special</name>
+        <mode>World Boundaries and Places</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places_Alternate/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>20</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10403" type="0" visible="true" background="10404">
+        <name>ESRI special</name>
+        <mode>Light Grey Map</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>24</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10404" type="0" visible="false" background="-1">
+        <name>ESRI special</name>
+        <mode>Light Grey Base</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>24</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10405" type="0" visible="true" background="-1">
+        <name>ESRI special</name>
+        <mode>Navigation Charts</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Specialty/World_Navigation_Charts/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>18</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10406" type="0" visible="true" background="-1">
+        <name>ESRI special</name>
+        <mode>Soil Survey</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Specialty/Soil_Survey_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>24</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10407" type="0" visible="true" background="-1">
+        <name>ESRI special</name>
+        <mode>DeLorme Base</mode>
+        <countries>World, USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Specialty/DeLorme_World_Base_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>19</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10408" type="0" visible="false" background="-1">
+        <name>ESRI special</name>
+        <mode>Places</mode>
+        <countries>World, USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <!-- ESRI maps Demographics in USA -->
+    <provider id="10501" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Population Change 1990 - 2000</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_1990-2000_Population_Change/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10601" type="0" visible="true" background="10501">
+        <name>ESRI USA Demographics</name>
+        <mode>Population Change 1990 - 2000</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10502" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Average Household Size</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Average_Household_Size/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10602" type="0" visible="true" background="10502">
+        <name>ESRI USA Demographics</name>
+        <mode>Average Household Size</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10503" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Daytime Population</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Daytime_Population/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10603" type="0" visible="true" background="10503">
+        <name>ESRI USA Demographics</name>
+        <mode>Daytime Population</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10504" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Diversity Index</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Diversity_Index/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10604" type="0" visible="true" background="10504">
+        <name>ESRI USA Demographics</name>
+        <mode>Diversity Index</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10505" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Labour Force Participation Rate</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Labor_Force_Participation_Rate/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10605" type="0" visible="true" background="10505">
+        <name>ESRI USA Demographics</name>
+        <mode>Labour Force Participation Rate</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10506" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Median Age</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Age/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10606" type="0" visible="true" background="10506">
+        <name>ESRI USA Demographics</name>
+        <mode>Median Age</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10507" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Median Home Value</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Home_Value/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10607" type="0" visible="true" background="10507">
+        <name>ESRI USA Demographics</name>
+        <mode>Median Home Value</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10508" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Median Household Income</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Household_Income/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10608" type="0" visible="true" background="10508">
+        <name>ESRI USA Demographics</name>
+        <mode>Median Household Income</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10509" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Median Net Worth</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Net_Worth/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10609" type="0" visible="true" background="10509">
+        <name>ESRI USA Demographics</name>
+        <mode>Median Net Worth</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10510" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Owner Occupied Housing</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Owner_Occupied_Housing/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10610" type="0" visible="true" background="10510">
+        <name>ESRI USA Demographics</name>
+        <mode>Owner Occupied Housing</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10511" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Percent Male</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Percent_Male/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10611" type="0" visible="true" background="10511">
+        <name>ESRI USA Demographics</name>
+        <mode>Percent Male</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10512" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Percent Over 64</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Percent_Over_64/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10612" type="0" visible="true" background="10512">
+        <name>ESRI USA Demographics</name>
+        <mode>Percent Over 64</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10513" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Percent Under 18</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Percent_Under_18/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10613" type="0" visible="true" background="10513">
+        <name>ESRI USA Demographics</name>
+        <mode>Percent Under 18</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10514" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Population by Sex</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Population_by_Sex/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10614" type="0" visible="true" background="10514">
+        <name>ESRI USA Demographics</name>
+        <mode>Population by Sex</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10515" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Population Density</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Population_Density/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10615" type="0" visible="true" background="10515">
+        <name>ESRI USA Demographics</name>
+        <mode>Population Density</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10516" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Projected Population Change</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Projected_Population_Change/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10616" type="0" visible="true" background="10516">
+        <name>ESRI USA Demographics</name>
+        <mode>Projected Population Change</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10517" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Recent Population Change</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Recent_Population_Change/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10617" type="0" visible="true" background="10517">
+        <name>ESRI USA Demographics</name>
+        <mode>Recent Population Change</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10518" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Retail Spending Potential</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Retail_Spending_Potential/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10618" type="0" visible="true" background="10518">
+        <name>ESRI USA Demographics</name>
+        <mode>Retail Spending Potential</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10519" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Social Vulnerability Index</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Social_Vulnerability_Index/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10619" type="0" visible="true" background="10519">
+        <name>ESRI USA Demographics</name>
+        <mode>Social Vulnerability Index</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10520" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Tapestry</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Tapestry/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10620" type="0" visible="true" background="10520">
+        <name>ESRI USA Demographics</name>
+        <mode>Tapestry</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10521" type="0" visible="false" background="-1">
+        <name>ESRI USA Demographics</name>
+        <mode>Unemployment Rate</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Unemployment_Rate/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+    <provider id="10621" type="0" visible="true" background="10521">
+        <name>ESRI USA Demographics</name>
+        <mode>Unemployment Rate</mode>
+        <countries>USA</countries>
+        <url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>10</zoomMin>
+        <zoomMax>21</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+        <extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+    </provider>
+
+    <!-- Map Tweak Overlays -->	
+    <provider id="11701" type="0" visible="true" background="-1">
+          <name>Overlays</name>
+          <mode>Traffic</mode>
+          <area></area>
+          <url><![CDATA[http://mts{s}.google.com/mapslt?src=app&lyrs=traffic&x={x}&y={y}&z={z}&style=15&w=256&h=256]]></url>
+            <serverPart>0;1;2;3</serverPart>
+          <zoomPart>{z}-8</zoomPart>
+          <zoomMin>12</zoomMin>
+          <zoomMax>23</zoomMax>
+          <tileSize>256</tileSize>
+          <attribution><![CDATA[(c)2013 Google]]></attribution>
+          <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+          <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+       </provider>   
+    <provider id="11704" type="0" visible="true" background="-1">
+          <name>Overlays</name>
+          <mode>Clouds</mode>
+          <area></area>
+          <url><![CDATA[http://mts{s}.google.com/mapslt?src=app&lyrs=weather_0cloud&src=app&x={x}&y={y}&z={z}&s=Galileo]]></url>
+          <serverPart>0;1;2;3</serverPart>
+          <zoomPart>{z}-8</zoomPart>
+          <zoomMin>8</zoomMin>
+          <zoomMax>14</zoomMax>
+          <tileSize>256</tileSize>
+          <attribution><![CDATA[(c)2013 Google]]></attribution>
+          <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+          <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+       </provider>   
+    <provider id="11705" type="0" visible="true" background="-1">
+          <name>Overlays</name>
+          <mode>Weather Icons</mode>
+          <area></area>
+          <url><![CDATA[http://mts{s}.google.com/mapslt?src=app&x={x}&y={y}&z={z}&s=Galileo&lyrs=weather_c_mph|invert:1&s=Galileo]]></url>
+          <serverPart>0;1;2;3</serverPart>
+          <zoomPart>{z}-8</zoomPart>
+          <zoomMin>8</zoomMin>
+          <zoomMax>26</zoomMax>
+          <tileSize>256</tileSize>
+          <attribution><![CDATA[(c)2013 Google]]></attribution>
+          <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+          <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+       </provider>
+    <provider id="11710" type="0" visible="true" background="-1">
+        <name>Overlays</name>
+        <mode>Clouds and Icons</mode>
+          <url><![CDATA[http://mts{s}.google.com/mapslt?src=app&x={x}&y={y}&z={z}&s=Galileo&lyrs=weather_0cloud,weather_c_mph|invert:1&s=Galileo]]></url>
+        <serverPart>0;1;2;3</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2013 Google]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+    </provider>
+    <provider id="11711" type="0" visible="false" required="false" background="-1">
+        <name>Overlays</name>
+        <mode>Clouds base</mode>
+        <url><![CDATA[http://mts{s}.google.com/mapslt?src=app&x={x}&y={y}&z={z}&lyrs=weather_0cloud&s=Galileo]]></url>
+        <serverPart>0;1;2;3</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>14</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2013 Google]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+    </provider>
+    <provider id="11712" type="0" visible="true" background="11711">
+        <name>Overlays</name>
+        <mode>Icons and Clouds</mode>
+        <url><![CDATA[http://mts{s}.google.com/mapslt?src=app&x={x}&y={y}&z={z}&lyrs=weather_c_mph|invert:0&s=Galileo]]></url>
+        <serverPart>0;1;2;3</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2013 Google]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+    </provider>
+    <provider id="11713" type="0" visible="false" required="false" background="-1">
+        <name>Google</name>
+        <mode>Satellite and Clouds</mode>
+        <url><![CDATA[http://mts{s}.google.com/mapslt?src=app&x={x}&y={y}&z={z}&lyrs=s,h@1,weather_nolabels,weather_0cloud&s=Galileo]]></url>
+        <serverPart>0;1;2;3</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>14</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2013 Google]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+    </provider>
+    <provider id="11714" type="0" visible="true" background="11713">
+        <name>Google</name>
+        <mode>Weather Satellite</mode>
+        <url><![CDATA[http://mts{s}.google.com/mapslt?src=app&x={x}&y={y}&z={z}&lyrs=weather_c_mph|invert:0&s=Galileo]]></url>
+        <serverPart>0;1;2;3</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>26</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[(c)2013 Google - Map data (c)2011 Tele Atlas]]></attribution>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+        <extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+    </provider>
+
+    <!-- Apple maps -->
+    <provider id="10700" type="0" visible="true" background="-1">
+        <name>Apple</name>
+        <mode>Classic</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://gsp2.apple.com/tile?api=1&style=slideshow&layers=default&z={z}&x={x}&y={y}&v=10]]></url>
+        <serverPart>1;2;3;4</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>11</zoomMin>
+        <zoomMax>22</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[Apple]]></attribution>
+        <extraHeader><![CDATA[Referer#http://apple.com]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>
+
+    <!-- here maps -->
+    <provider id="10710" type="0" visible="true" background="-1">
+        <name>Here</name>
+        <mode>Classic</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.base.maps.api.here.com/maptile/2.1/maptile/c0d3b50d72/normal.day/{z}/{x}/{y}/256/png8?&app_id=SqE1xcSngCd3m4a1zEGb&token=r0sR1DzqDkS6sDnh902FWQ]]></url>
+        <serverPart>1;2;3;4</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>28</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[Here.com]]></attribution>
+        <extraHeader><![CDATA[Referer#http://here.com/0,0,3,0,0,normal.day]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>
+    <provider id="10711" type="0" visible="true" background="-1">
+        <name>Here</name>
+        <mode>Hybrid</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.aerial.maps.api.here.com/maptile/2.1/maptile/c0d3b50d72/hybrid.day/{z}/{x}/{y}/256/png8?app_id=SqE1xcSngCd3m4a1zEGb&token=r0sR1DzqDkS6sDnh902FWQ]]></url>
+        <serverPart>1;2;3;4</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>28</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[Here.com]]></attribution>
+        <extraHeader><![CDATA[Referer#http://here.com/0,0,3,0,0,hybrid.day]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>
+    <provider id="10712" type="0" visible="true" background="-1">
+        <name>Here</name>
+        <mode>Terrain</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.aerial.maps.api.here.com/maptile/2.1/maptile/c0d3b50d72/terrain.day/{z}/{x}/{y}/256/png8?app_id=SqE1xcSngCd3m4a1zEGb&token=r0sR1DzqDkS6sDnh902FWQ]]></url>
+        <serverPart>1;2;3;4</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>28</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[Here.com]]></attribution>
+        <extraHeader><![CDATA[Referer#http://here.com/0,0,3,0,0,terrain.day]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>
+
+    <!-- Falk maps -->
+    <provider id="10720" type="0" visible="true" background="-1">
+        <name>Falk</name>
+        <mode>Classic</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://ec{s}.cdn.ecmaps.de/WmsGateway.ashx.jpg?Experience=falk&MapStyle=Falk%20Base&TileX={x}&TileY={y}&ZoomLevel={z}]]></url>
+        <serverPart>0;1;2;3</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>24</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[Falk]]></attribution>
+        <extraHeader><![CDATA[Referer#http://www.falk.de/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>	
+
+    <!-- MapBox maps -->
+	<!-- stopped working
+    <provider id="10800" type="0" visible="true" background="-1">
+        <name>MapBox</name>
+        <mode>Classic</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-vyofok3q/{z}/{x}/{y}.png]]></url>
+        <serverPart>a;b</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>30</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[MapBox]]></attribution>
+        <extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider> -->
+    <provider id="10801" type="0" visible="true" background="-1">
+        <name>MapBox</name>
+        <mode>Classic - Orange</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-e3z60292/{z}/{x}/{y}.png]]></url>
+        <serverPart>a;b</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>30</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[MapBox]]></attribution>
+        <extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>
+    <provider id="10802" type="0" visible="true" background="-1">
+        <name>MapBox</name>
+        <mode>Classic - Dark</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-cnkhv76j/{z}/{x}/{y}.png]]></url>
+        <serverPart>a;b</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>30</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[MapBox]]></attribution>
+        <extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>
+    <!-- stopped working
+	<provider id="10803" type="0" visible="true" background="-1">
+        <name>MapBox</name>
+        <mode>Terrain - Green</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-9ijuk24y/{z}/{x}/{y}.png]]></url>
+        <serverPart>a;b</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>30</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[MapBox]]></attribution>
+        <extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider> -->
+    <provider id="10804" type="0" visible="true" background="-1">
+        <name>MapBox</name>
+        <mode>Terrain - Brown</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-qogxobv1/{z}/{x}/{y}.png]]></url>
+        <serverPart>a;b</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>30</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[MapBox]]></attribution>
+        <extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>
+    <provider id="10805" type="0" visible="true" background="-1">
+        <name>MapBox</name>
+        <mode>Terrain - Grey</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-9d0r2yso/{z}/{x}/{y}.png]]></url>
+        <serverPart>a;b</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>30</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[MapBox]]></attribution>
+        <extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>
+    <provider id="10806" type="0" visible="true" background="-1">
+        <name>MapBox</name>
+        <mode>Hybrid</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-qfyrx5r8/{z}/{x}/{y}.png]]></url>
+        <serverPart>a;b</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[MapBox]]></attribution>
+        <extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>
+    <provider id="10807" type="0" visible="true" background="-1">
+        <name>MapBox</name>
+        <mode>Satellite</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-b70jh5xu/{z}/{x}/{y}.png]]></url>
+        <serverPart>a;b</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[MapBox]]></attribution>
+        <extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>
+    <provider id="10808" type="0" visible="true" background="-1">
+        <name>MapBox</name>
+        <mode>Satellite - Grey</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-8ly8i7pv/{z}/{x}/{y}.png]]></url>
+        <serverPart>a;b</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>27</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[MapBox]]></attribution>
+        <extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>
+
+
+	<!-- IGN-Geoportail France maps -->
+	<provider id="10830" type="0" visible="true" background="-1">
+		<name>Geoportail</name>
+		<mode>Map</mode>
+		<url><![CDATA[http://wxs.ign.fr/6qcguib31zj0w42ht311a1lz/geoportail/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GEOGRAPHICALGRIDSYSTEMS.MAPS&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image/jpeg]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>26</zoomMax>
+		<tileSize>256</tileSize>
+		<countries>France</countries>
+    <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0]]></extraHeader>
+    <extraHeader><![CDATA[Referer#http://m.geoportail.fr/]]></extraHeader>
+	</provider>
+	<provider id="10831" type="0" visible="true" background="-1">
+		<name>Geoportail</name>
+		<mode>Map ScanExpress Classic</mode>
+		<url><![CDATA[http://gpp3-wxs.ign.fr/iv2suivbu1mzyabwnr4k1w2n/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&LAYER=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.CLASSIQUE&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image/jpeg]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>26</zoomMax>
+		<tileSize>256</tileSize>
+		<countries>France</countries>
+    <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0]]></extraHeader>
+    <extraHeader><![CDATA[Referer#http://www.vttrack.fr/map.php?layers=Sentiers&centerOnId=97&centerOnLayer=singletrack_sentiers]]></extraHeader>
+	</provider>
+	<provider id="10832" type="0" visible="true" background="-1">
+		<name>Geoportail</name>
+		<mode>Satellite (orthophotos)</mode>
+		<url><![CDATA[http://wxs.ign.fr/6qcguib31zj0w42ht311a1lz/geoportail/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=ORTHOIMAGERY.ORTHOPHOTOS&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image/jpeg]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>27</zoomMax>
+		<tileSize>256</tileSize>
+		<countries>France</countries>
+    <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0]]></extraHeader>
+    <extraHeader><![CDATA[Referer#http://m.geoportail.fr/]]></extraHeader>
+	</provider>
+	<provider id="10833" type="0" visible="true" background="-1">
+		<name>Geoportail</name>
+		<mode>Sea coast (littoral)</mode>
+		<url><![CDATA[http://wxs.ign.fr/tyujsdxmzox31ituc2uw0qwl/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&LAYER=GEOGRAPHICALGRIDSYSTEMS.COASTALMAPS&STYLE=normal&FORMAT=image/png&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&extParamId=aHR0cDovL3d3dy5nZW9wb3J0YWlsLmdvdXYuZnIvYWNjdWVpbA==]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>14</zoomMin>
+		<zoomMax>24</zoomMax>
+		<tileSize>256</tileSize>
+		<countries>France</countries>
+		<usage>nautical</usage>
+    <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0]]></extraHeader>
+    <extraHeader><![CDATA[Referer#http://www.geoportail.gouv.fr/swf/geoportal-visu-1.6.8.swf]]></extraHeader>
+	</provider>
+	<provider id="10834" type="0" visible="true" background="-1">
+		<name>Geoportail</name>
+		<mode>Plots (cadastre)</mode>
+		<url><![CDATA[http://wxs.ign.fr/tyujsdxmzox31ituc2uw0qwl/geoportail/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&LAYER=CADASTRALPARCELS.PARCELS&STYLE=bdparcellaire&FORMAT=image/png&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&extParamId=aHR0cDovL3d3dy5nZW9wb3J0YWlsLmdvdXYuZnIvYWNjdWVpbA==]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>14</zoomMin>
+		<zoomMax>24</zoomMax>
+		<tileSize>256</tileSize>
+		<countries>France</countries>
+    <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0]]></extraHeader>
+    <extraHeader><![CDATA[Referer#http://www.geoportail.gouv.fr/swf/geoportal-visu-1.6.8.swf]]></extraHeader>
+	</provider>
+
+	<!-- Kompass.de maps --> 
+	<provider id="10850" type="0" visible="true" background="-1">
+		<name>Kompass.de</name>
+		<mode>Hike</mode>
+		<url><![CDATA[http://ec2.cdn.ecmaps.de/WmsGateway.ashx.jpg?Experience=kompass&MapStyle=KOMPASS%20Touristik&TileX={x}&TileY={y}&ZoomLevel={z}]]></url>
+		<serverPart>0;1;2;3</serverPart>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>14</zoomMin>
+		<zoomMax>23</zoomMax>
+		<tileSize>256</tileSize>
+		<countries>Europe</countries>
+    <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0]]></extraHeader>
+    <extraHeader><![CDATA[Referer#http://www.kompass.de/touren-und-regionen/wanderkarte/]]></extraHeader>
+	</provider>
+
+	    <!-- TomTom maps --> 
+    <provider id="10860" type="0" visible="true" background="-1">
+        <name>TomTom</name>
+        <mode>Classic</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.api.internal.tomtom.com/lbs/map/3/basic/1/{z}/{x}/{y}.png?key=dvbfcb88hkrje9ur2fs84uxn]]></url>
+        <serverPart>a;b;c;d</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>24</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[TomTom]]></attribution>
+        <extraHeader><![CDATA[Referer#http://routes.tomtom.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>	
+	<provider id="10861" type="0" visible="true" background="-1">
+        <name>TomTom</name>
+        <mode>Traffic - Overlay</mode>
+        <countries>World</countries>
+        <url><![CDATA[http://{s}.api.internal.tomtom.com/lbs/map/3/traffic/s2/{z}/{x}/{y}.png?key=dvbfcb88hkrje9ur2fs84uxn]]></url>
+        <serverPart>a;b;c;d</serverPart>
+        <zoomPart>{z}-8</zoomPart>
+        <zoomMin>8</zoomMin>
+        <zoomMax>24</zoomMax>
+        <tileSize>256</tileSize>
+        <attribution><![CDATA[TomTom]]></attribution>
+        <extraHeader><![CDATA[Referer#http://routes.tomtom.com/]]></extraHeader>
+        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+    </provider>	
+	
+
+</providers>
