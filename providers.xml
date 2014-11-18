@@ -1903,19 +1903,18 @@
 	</provider>	
 
 	<!-- Onlinekarte deutscher Luftraum -->
-	    <provider id="10870" type="0" visible="true" background="-1">
-        <name>ICAO</name>
-        <mode>Airspace</mode>
-        <area>Germany</area>
-        <url><![CDATA[https://secais.dfs.de/static-maps/ICAO500-2014-DACH-Reprojected_01/tiles/{z}/{x}/{y}.png]]></url>
-        <zoomPart>{z}-8</zoomPart>
-        <zoomMin>15</zoomMin>
-        <zoomMax>20</zoomMax>
-        <tileSize>256</tileSize>
-        <attribution></attribution>
-        <extraHeader><![CDATA[Referer#https://secais.dfs.de/]]></extraHeader>
-        <extraHeader>
-            <![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
-    </provider>
+    	<provider id="10870" type="0" visible="true" background="-1">
+	        <name>ICAO</name>
+	        <mode>Airspace</mode>
+	        <area>Germany</area>
+	        <url><![CDATA[https://secais.dfs.de/static-maps/ICAO500-2014-DACH-Reprojected_01/tiles/{z}/{x}/{y}.png]]></url>
+	        <zoomPart>{z}-8</zoomPart>
+	        <zoomMin>15</zoomMin>
+	        <zoomMax>20</zoomMax>
+	        <tileSize>256</tileSize>
+	        <attribution></attribution>
+	        <extraHeader><![CDATA[Referer#https://secais.dfs.de/]]></extraHeader>
+	        <extraHeader></extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+	</provider>
 
 </providers>
