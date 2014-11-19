@@ -1914,7 +1914,7 @@
 	        <tileSize>256</tileSize>
 	        <attribution></attribution>
 	        <extraHeader><![CDATA[Referer#https://secais.dfs.de/]]></extraHeader>
-	        <extraHeader></extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+	        <extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 
 </providers>
