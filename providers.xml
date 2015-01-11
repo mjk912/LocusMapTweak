@@ -12,10 +12,11 @@
 		<zoomMin>8</zoomMin>
 		<zoomMax>27</zoomMax>
 		<tileSize>256</tileSize>
-		<countries>World</countries>	
+		<countries>World</countries>
 		<attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<!-- not working, 
 	<provider id="10021" type="0" visible="true" background="-1">
@@ -31,6 +32,7 @@
 		<attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>photo</usage>
 	</provider>-->
 	<provider id="10022" type="0" visible="true" background="-1">
 		<name>Google</name>
@@ -45,6 +47,7 @@
 		<attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="10023" type="0" visible="true" background="-1">
 		<name>Google</name>
@@ -59,6 +62,7 @@
 		<attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<!-- not working
 	<provider id="10024" type="0" visible="false" background="-1">
@@ -75,6 +79,7 @@
 		<attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>road,city</usage>
 	</provider> -->
 	<provider id="11715" type="0" visible="true" background="-1">
 		<name>Google</name>
@@ -89,6 +94,7 @@
 		<attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>cycle</usage>
 	</provider>
 	<provider id="11716" type="0" visible="true" background="-1">
 		<name>Google</name>
@@ -103,6 +109,7 @@
 		<attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>transport</usage>
 	</provider>
 
 
@@ -120,6 +127,7 @@
 		<attribution><![CDATA[(c) NAVTEQ, NavInfo Co Ltd., THTC 2011 <a href="http://maps.nokia.com/services/terms">Terms of use</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://maps.nokia.com/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10031" type="0" visible="true" background="-1">
 		<name>OVI-Nokia maps</name>
@@ -133,6 +141,7 @@
 		<attribution><![CDATA[(c) NAVTEQ, NavInfo Co Ltd., THTC 2011 <a href="http://maps.nokia.com/services/terms">Terms of use</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://maps.nokia.com/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="10032" type="0" visible="true" background="-1">
 		<name>OVI-Nokia maps</name>
@@ -146,6 +155,7 @@
 		<attribution><![CDATA[(c) NAVTEQ, NavInfo Co Ltd., THTC 2011 <a href="http://maps.nokia.com/services/terms">Terms of use</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://maps.nokia.com/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 
 
@@ -164,6 +174,7 @@
 		<attribution><![CDATA[<a href="http://info.yahoo.com/legal/us/yahoo/maps/globalmaps/atos.html">Terms of use</a> <a href="http://info.yahoo.com/privacy/us/yahoo/maps/details.html">Privacy</a> <a href="http://feedback.help.yahoo.com/feedback.php?.src=MAPS">Feedback</a> (c) 2011 Yahoo! Inc]]></attribution>
 		<extraHeader><![CDATA[Referer#http://maps.yahoo.com/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10041" type="4" visible="true" background="-1">
 		<name>Yahoo</name>
@@ -177,6 +188,7 @@
 		<attribution><![CDATA[<a href="http://info.yahoo.com/legal/us/yahoo/maps/globalmaps/atos.html">Terms of use</a> <a href="http://info.yahoo.com/privacy/us/yahoo/maps/details.html">Privacy</a> <a href="http://feedback.help.yahoo.com/feedback.php?.src=MAPS">Feedback</a> (c) 2011 Yahoo! Inc]]></attribution>
 		<extraHeader><![CDATA[Referer#http://maps.yahoo.com/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>photo</usage>
 	</provider> 
 	-->
 
@@ -195,6 +207,7 @@
 		<attribution><![CDATA[© 2011 Microsoft | <a href="http://go.microsoft.com/fwlink/?LinkId=74170">Privacy</a> | <a href="http://g.msn.com/0TO_/enww">Legal</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://www.bing.com/maps/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10051" type="5" visible="true" background="-1">
 		<name>Bing</name>
@@ -208,6 +221,7 @@
 		<attribution><![CDATA[© 2011 Microsoft | <a href="http://go.microsoft.com/fwlink/?LinkId=74170">Privacy</a> | <a href="http://g.msn.com/0TO_/enww">Legal</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://www.bing.com/maps/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="10052" type="5" visible="false" background="-1">
 		<name>Bing</name>
@@ -221,6 +235,7 @@
 		<attribution><![CDATA[© 2011 Microsoft | <a href="http://go.microsoft.com/fwlink/?LinkId=74170">Privacy</a> | <a href="http://g.msn.com/0TO_/enww">Legal</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://www.bing.com/maps/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10053" type="5" visible="true" background="-1">
 		<name>Bing</name>
@@ -234,6 +249,7 @@
 		<attribution><![CDATA[© 2011 Microsoft | <a href="http://go.microsoft.com/fwlink/?LinkId=74170">Privacy</a> | <a href="http://g.msn.com/0TO_/enww">Legal</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://www.bing.com/maps/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10054" type="5" visible="true" background="-1">
 		<name>Bing</name>
@@ -247,6 +263,7 @@
 		<attribution><![CDATA[© 2011 Microsoft | <a href="http://go.microsoft.com/fwlink/?LinkId=74170">Privacy</a> | <a href="http://g.msn.com/0TO_/enww">Legal</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://www.bing.com/maps/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 
 	
@@ -261,6 +278,7 @@
 		<zoomMin>16</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 	<!-- BergFex Austria Zomm 14 -->
 	<provider id="10061" type="0" visible="true" background="-1">
@@ -272,6 +290,7 @@
 		<zoomMin>22</zoomMin>
 		<zoomMax>22</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 	<provider id="10062" type="0" visible="true" background="-1">
 		<name>Bergfex</name>
@@ -282,6 +301,7 @@
 		<zoomMin>22</zoomMin>
 		<zoomMax>22</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 	<provider id="10063" type="0" visible="true" background="-1">
 		<name>Bergfex</name>
@@ -292,6 +312,7 @@
 		<zoomMin>22</zoomMin>
 		<zoomMax>22</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 	<provider id="10064" type="0" visible="true" background="-1">
 		<name>Bergfex</name>
@@ -302,6 +323,7 @@
 		<zoomMin>22</zoomMin>
 		<zoomMax>22</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 	<!-- BergFex Austria Zoom 15 -->
 	<provider id="10065" type="0" visible="true" background="-1">
@@ -313,6 +335,7 @@
 		<zoomMin>23</zoomMin>
 		<zoomMax>23</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 	<provider id="10066" type="0" visible="true" background="-1">
 		<name>Bergfex</name>
@@ -323,6 +346,7 @@
 		<zoomMin>23</zoomMin>
 		<zoomMax>23</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 	<provider id="10067" type="0" visible="true" background="-1">
 		<name>Bergfex</name>
@@ -333,6 +357,7 @@
 		<zoomMin>23</zoomMin>
 		<zoomMax>23</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 	<provider id="10068" type="0" visible="true" background="-1">
 		<name>Bergfex</name>
@@ -343,6 +368,7 @@
 		<zoomMin>23</zoomMin>
 		<zoomMax>23</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 	<provider id="10069" type="0" visible="true" background="-1">
 		<name>Bergfex</name>
@@ -353,6 +379,7 @@
 		<zoomMin>23</zoomMin>
 		<zoomMax>23</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 	<provider id="10070" type="0" visible="true" background="-1">
 		<name>Bergfex</name>
@@ -363,6 +390,7 @@
 		<zoomMin>23</zoomMin>
 		<zoomMax>23</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 	<provider id="10071" type="0" visible="true" background="-1">
 		<name>Bergfex</name>
@@ -373,6 +401,7 @@
 		<zoomMin>23</zoomMin>
 		<zoomMax>23</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 	<provider id="10072" type="0" visible="true" background="-1">
 		<name>Bergfex</name>
@@ -383,6 +412,7 @@
 		<zoomMin>23</zoomMin>
 		<zoomMax>23</zoomMax>
 		<tileSize>256</tileSize>
+		<usage>hiking</usage>
 	</provider>
 
 
@@ -400,6 +430,7 @@
 		<attribution><![CDATA[© ЗАО «ТГА», 2006, © ВТУ ГШ ВС РФ, © ЗАО «Резидент»]]></attribution>
 		<extraHeader><![CDATA[Referer#http://maps.yandex.ru/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10081" type="2" visible="true" background="-1">
 		<name>Yandex</name>
@@ -414,6 +445,7 @@
 		<attribution><![CDATA[© ЗАО «ТГА», 2006, © ВТУ ГШ ВС РФ, © ЗАО «Резидент»]]></attribution>
 		<extraHeader><![CDATA[Referer#http://maps.yandex.ru/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<!-- Hybrid not working! someone needs to create a base map plus overlay
 	<provider id="10082" type="2" visible="true" background="10081">
@@ -429,6 +461,7 @@
 		<attribution><![CDATA[© ЗАО «ТГА», 2006, © ВТУ ГШ ВС РФ, © ЗАО «Резидент»]]></attribution>
 		<extraHeader><![CDATA[Referer#http://maps.yandex.ru/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	-->
 
@@ -446,6 +479,7 @@
 		<attribution><![CDATA[© Karttakeskus. Lantmäteriet/Metria]]></attribution>
 		<extraHeader><![CDATA[Referer#http://kartor.eniro.se/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10091" type="1" visible="true" background="-1">
 		<name>Eniro</name>
@@ -459,6 +493,7 @@
 		<attribution><![CDATA[© Karttakeskus. Lantmäteriet/Metria]]></attribution>
 		<extraHeader><![CDATA[Referer#http://kartor.eniro.se/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="10092" type="1" visible="true" background="10091">
 		<name>Eniro</name>
@@ -472,6 +507,7 @@
 		<attribution><![CDATA[© Karttakeskus. Lantmäteriet/Metria]]></attribution>
 		<extraHeader><![CDATA[Referer#http://kartor.eniro.se/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="10093" type="1" visible="true" background="-1">
 		<name>Eniro</name>
@@ -485,6 +521,7 @@
 		<attribution><![CDATA[© Karttakeskus. Lantmäteriet/Metria]]></attribution>
 		<extraHeader><![CDATA[Referer#http://kartor.eniro.se/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>nautical</usage>
 	</provider>
 
 	
@@ -653,6 +690,7 @@
 		<attribution><![CDATA[<a href="http://mapi.gov.il/">Terms of use</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://amudanan.co.il/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>hiking</usage>
 	</provider>
 	<provider id="10191" type="0" visible="true" background="10190">
 		<name>Amudanan</name>
@@ -667,6 +705,7 @@
 		<extraHeader><![CDATA[Accept-Encoding#none]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://amudanan.co.il/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>hiking,cycle</usage>
 	</provider>
 	<provider id="10192" type="0" visible="true" background="-1">
 		<name>Amudanan</name>
@@ -715,6 +754,7 @@
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10302" type="0" visible="true" background="-1">
 		<name>ESRI World</name>
@@ -728,6 +768,7 @@
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="10303" type="0" visible="false" background="10302">
 		<name>ESRI World</name>
@@ -741,6 +782,7 @@
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="10304" type="0" visible="true" background="10303">
 		<name>ESRI World</name>
@@ -754,6 +796,7 @@
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="10305" type="0" visible="true" background="-1">
 		<name>ESRI World</name>
@@ -767,6 +810,7 @@
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10306" type="0" visible="true" background="-1">
 		<name>ESRI World</name>
@@ -780,6 +824,7 @@
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>hiking</usage>
 	</provider>
 	<provider id="10307" type="0" visible="true" background="-1">
 		<name>ESRI World</name>
@@ -832,6 +877,7 @@
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>nautical</usage>
 	</provider>
 	<!-- ESRI maps special -->
 	<provider id="10401" type="0" visible="false" background="-1">
@@ -872,6 +918,7 @@
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>overlay</usage>
 	</provider>
 	<provider id="10404" type="0" visible="false" background="-1">
 		<name>ESRI special</name>
@@ -898,6 +945,7 @@
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>aero</usage>
 	</provider>
 	<provider id="10406" type="0" visible="true" background="-1">
 		<name>ESRI special</name>
@@ -924,6 +972,7 @@
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
 		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>road</usage>
 	</provider>
 	<provider id="10408" type="0" visible="false" background="-1">
 		<name>ESRI special</name>
@@ -1501,6 +1550,7 @@
 		<attribution><![CDATA[(c)2013 Google]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>overlay</usage>
 	</provider> 
 	<provider id="11704" type="0" visible="true" background="-1">
 		<name>Overlays</name>
@@ -1515,6 +1565,7 @@
 		<attribution><![CDATA[(c)2013 Google]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>overlay</usage>
 	</provider> 
 	<provider id="11705" type="0" visible="true" background="-1">
 		<name>Overlays</name>
@@ -1529,6 +1580,7 @@
 		<attribution><![CDATA[(c)2013 Google]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>overlay</usage>
 	</provider>
 	<provider id="11710" type="0" visible="true" background="-1">
 		<name>Overlays</name>
@@ -1542,6 +1594,7 @@
 		<attribution><![CDATA[(c)2013 Google]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>overlay</usage>
 	</provider>
 	<provider id="11711" type="0" visible="false" required="false" background="-1">
 		<name>Overlays</name>
@@ -1555,6 +1608,7 @@
 		<attribution><![CDATA[(c)2013 Google]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>overlay</usage>
 	</provider>
 	<provider id="11712" type="0" visible="true" background="11711">
 		<name>Overlays</name>
@@ -1568,6 +1622,7 @@
 		<attribution><![CDATA[(c)2013 Google]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>overlay</usage>
 	</provider>
 	<provider id="11713" type="0" visible="false" required="false" background="-1">
 		<name>Google</name>
@@ -1581,6 +1636,7 @@
 		<attribution><![CDATA[(c)2013 Google]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="11714" type="0" visible="true" background="11713">
 		<name>Google</name>
@@ -1594,6 +1650,7 @@
 		<attribution><![CDATA[(c)2013 Google - Map data (c)2011 Tele Atlas]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 
 	<!-- Apple maps -->
@@ -1610,6 +1667,7 @@
 		<attribution><![CDATA[Apple]]></attribution>
 		<extraHeader><![CDATA[Referer#http://apple.com]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 
 
@@ -1627,6 +1685,7 @@
 		<attribution><![CDATA[Here.com]]></attribution>
 		<extraHeader><![CDATA[Referer#http://here.com/0,0,3,0,0,normal.day]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10711" type="0" visible="true" background="-1">
 		<name>Here</name>
@@ -1641,6 +1700,7 @@
 		<attribution><![CDATA[Here.com]]></attribution>
 		<extraHeader><![CDATA[Referer#http://here.com/0,0,3,0,0,hybrid.day]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="10712" type="0" visible="true" background="-1">
 		<name>Here</name>
@@ -1655,6 +1715,7 @@
 		<attribution><![CDATA[Here.com]]></attribution>
 		<extraHeader><![CDATA[Referer#http://here.com/0,0,3,0,0,terrain.day]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 
 
@@ -1672,6 +1733,7 @@
 		<attribution><![CDATA[Falk]]></attribution>
 		<extraHeader><![CDATA[Referer#http://www.falk.de/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>	
 
 
@@ -1690,6 +1752,7 @@
 		<attribution><![CDATA[MapBox]]></attribution>
 		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>road,city</usage>
 	</provider> -->
 	<provider id="10801" type="0" visible="true" background="-1">
 		<name>MapBox</name>
@@ -1704,6 +1767,7 @@
 		<attribution><![CDATA[MapBox]]></attribution>
 		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10802" type="0" visible="true" background="-1">
 		<name>MapBox</name>
@@ -1718,6 +1782,7 @@
 		<attribution><![CDATA[MapBox]]></attribution>
 		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<!-- stopped working
 	<provider id="10803" type="0" visible="true" background="-1">
@@ -1733,6 +1798,7 @@
 		<attribution><![CDATA[MapBox]]></attribution>
 		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>road,city</usage>
 	</provider> -->
 	<provider id="10804" type="0" visible="true" background="-1">
 		<name>MapBox</name>
@@ -1747,6 +1813,7 @@
 		<attribution><![CDATA[MapBox]]></attribution>
 		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10805" type="0" visible="true" background="-1">
 		<name>MapBox</name>
@@ -1761,6 +1828,7 @@
 		<attribution><![CDATA[MapBox]]></attribution>
 		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10806" type="0" visible="true" background="-1">
 		<name>MapBox</name>
@@ -1775,6 +1843,7 @@
 		<attribution><![CDATA[MapBox]]></attribution>
 		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="10807" type="0" visible="true" background="-1">
 		<name>MapBox</name>
@@ -1789,6 +1858,7 @@
 		<attribution><![CDATA[MapBox]]></attribution>
 		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="10808" type="0" visible="true" background="-1">
 		<name>MapBox</name>
@@ -1803,6 +1873,7 @@
 		<attribution><![CDATA[MapBox]]></attribution>
 		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 
 
@@ -1818,6 +1889,7 @@
 		<countries>France</countries>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://m.geoportail.fr/]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10831" type="0" visible="true" background="-1">
 		<name>Geoportail</name>
@@ -1830,6 +1902,7 @@
 		<countries>France</countries>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://www.vttrack.fr/map.php?layers=Sentiers&centerOnId=97&centerOnLayer=singletrack_sentiers]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>
 	<provider id="10832" type="0" visible="true" background="-1">
 		<name>Geoportail</name>
@@ -1842,6 +1915,7 @@
 		<countries>France</countries>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://m.geoportail.fr/]]></extraHeader>
+		<usage>photo</usage>
 	</provider>
 	<provider id="10833" type="0" visible="true" background="-1">
 		<name>Geoportail</name>
@@ -1867,6 +1941,7 @@
 		<countries>France</countries>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://www.geoportail.gouv.fr/swf/geoportal-visu-1.6.8.swf]]></extraHeader>
+		<usage>overlay</usage>
 	</provider>
 
 		<!-- Kompass.de maps --> 
@@ -1882,6 +1957,7 @@
 		<countries>Europe</countries>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://www.kompass.de/touren-und-regionen/wanderkarte/]]></extraHeader>
+		<usage>hiking</usage>
 	</provider>
 
 
@@ -1899,6 +1975,7 @@
 		<attribution><![CDATA[TomTom]]></attribution>
 		<extraHeader><![CDATA[Referer#http://routes.tomtom.com/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>road,city</usage>
 	</provider>	
 	<provider id="10861" type="0" visible="true" background="-1">
 		<name>TomTom</name>
@@ -1913,6 +1990,7 @@
 		<attribution><![CDATA[TomTom]]></attribution>
 		<extraHeader><![CDATA[Referer#http://routes.tomtom.com/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
+		<usage>overlay</usage>
 	</provider>	
 
 
@@ -1929,6 +2007,7 @@
 		<attribution></attribution>
 		<extraHeader><![CDATA[Referer#https://secais.dfs.de/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<usage>aero</usage>
 	</provider>
 
 </providers>
