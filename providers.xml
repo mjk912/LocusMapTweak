@@ -17,11 +17,10 @@
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
 	</provider>
-	<!-- not working, 
 	<provider id="10021" type="0" visible="true" background="-1">
 		<name>Google</name>
 		<mode>Satellite</mode>
-		<url><![CDATA[http://khm{s}.google.com/kh/v=142&src=app&hl=en&x={x}&y={y}&z={z}]]></url>
+		<url><![CDATA[http://mt{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}]]></url>
 		<serverPart>0;1</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
@@ -31,7 +30,7 @@
 		<attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
-	</provider>-->
+	</provider>
 	<provider id="10022" type="0" visible="true" background="-1">
 		<name>Google</name>
 		<mode>Hybrid</mode>
