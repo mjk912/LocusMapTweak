@@ -18,6 +18,7 @@ Contribute to providers.xml
 ---------------------------
 Find or fix maps with this method: <br>
 http://docs.locusmap.eu/doku.php?id=manual:custom_online_maps
+(link currently unavailable, Locus Wiki is getting updated)
 
 Discussion
 ----------
