@@ -2042,7 +2042,77 @@
 		<usage>aero</usage>
 	</provider>
 
+	<provider id="10900" type="0" visible="true" background="-1">
+		<name>Waymarked Trails</name>
+		<mode>Hiking</mode>
+		<countries>World</countries>
+		<url><![CDATA[http://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>26</zoomMax>
+		<tileSize>256</tileSize>
+		<usage>overlay</usage>
+	</provider>
 
+	<provider id="10901" type="0" visible="true" background="-1">
+		<name>Waymarked Trails</name>
+		<mode>Cycling</mode>
+		<countries>World</countries>
+		<url><![CDATA[http://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>26</zoomMax>
+		<tileSize>256</tileSize>
+		<usage>overlay</usage>
+	</provider>
+
+	<provider id="10902" type="0" visible="true" background="-1">
+		<name>Waymarked Trails</name>
+		<mode>MTB</mode>
+		<countries>World</countries>
+		<url><![CDATA[http://tile.waymarkedtrails.org/mtb/{z}/{x}/{y}.png]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>26</zoomMax>
+		<tileSize>256</tileSize>
+		<usage>overlay</usage>
+	</provider>
+
+	<provider id="10903" type="0" visible="true" background="-1">
+		<name>Waymarked Trails</name>
+		<mode>Inline Skating</mode>
+		<countries>World</countries>
+		<url><![CDATA[http://tile.waymarkedtrails.org/skating/{z}/{x}/{y}.png]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>26</zoomMax>
+		<tileSize>256</tileSize>
+		<usage>overlay</usage>
+	</provider>
+
+	<provider id="10904" type="0" visible="true" background="-1">
+		<name>Waymarked Trails</name>
+		<mode>Horse Riding</mode>
+		<countries>World</countries>
+		<url><![CDATA[http://tile.waymarkedtrails.org/riding/{z}/{x}/{y}.png]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>26</zoomMax>
+		<tileSize>256</tileSize>
+		<usage>overlay</usage>
+	</provider>
+
+	<provider id="10905" type="0" visible="true" background="-1">
+		<name>Waymarked Trails</name>
+		<mode>Winter Sport Slopes</mode>
+		<countries>World</countries>
+		<url><![CDATA[http://tile.waymarkedtrails.org/slopemap/{z}/{x}/{y}.png]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>26</zoomMax>
+		<tileSize>256</tileSize>
+		<usage>overlay</usage>
+	</provider>
 
 
 </providers>
