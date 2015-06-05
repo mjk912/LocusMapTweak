@@ -17,7 +17,7 @@ https://play.google.com/store/apps/details?id=com.mjk.locusmaptweak
 Contribute to providers.xml
 ---------------------------
 Find or fix maps with this method: <br>
-http://docs.locusmap.eu/doku.php?id=manual:custom_online_maps
+http://docs_old.locusmap.eu/doku.php?id=manual:custom_online_maps
 
 Discussion
 ----------

@@ -2,38 +2,38 @@
 <providers>
 
 	<!-- GOOGLE maps 
-	has a new tile URL system, needs to be updated!!! -->
+	has a new tile URL system, needs to be updated!
+	getting only 'older' tiles, new roads missing -->
 	<provider id="10020" type="0" visible="true" background="-1">
 	<name>Google</name>
 		<mode>Classic</mode>
-		<url><![CDATA[http://mt{s}.google.com/vt/lyrs=m@207000000&hl=en&x={x}&y={y}&z={z}]]></url>
-		<serverPart>0;1</serverPart>
+		<url><![CDATA[http://mt{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}]]></url>
+		<serverPart>0;1;2;3</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
 		<zoomMax>27</zoomMax>
 		<tileSize>256</tileSize>
 		<countries>World</countries>
-		<attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
-		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<attribution><![CDATA[(c)2015 Google - Map data]]></attribution>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0]]></extraHeader>
+		<extraHeader><![CDATA[Referer#http://www.google.com/maps/]]></extraHeader>
 		<usage>road,city</usage>
 	</provider>
-	<!-- not working, 
 	<provider id="10021" type="0" visible="true" background="-1">
 		<name>Google</name>
 		<mode>Satellite</mode>
-		<url><![CDATA[http://khm{s}.google.com/kh/v=142&src=app&hl=en&x={x}&y={y}&z={z}]]></url>
+		<url><![CDATA[http://mt{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}]]></url>
 		<serverPart>0;1</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
 		<zoomMax>28</zoomMax>
 		<tileSize>256</tileSize>
 		<countries>World</countries>
-		<attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
-		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<attribution><![CDATA[(c)2015 Google - Map data]]></attribution>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0]]></extraHeader>
+		<extraHeader><![CDATA[Referer#http://www.google.com/maps/]]></extraHeader>
 		<usage>photo</usage>
-	</provider>-->
+	</provider>
 	<provider id="10022" type="0" visible="true" background="-1">
 		<name>Google</name>
 		<mode>Hybrid</mode>
@@ -44,24 +44,24 @@
 		<zoomMax>28</zoomMax>
 		<tileSize>256</tileSize>
 		<countries>World</countries>
-		<attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
-		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<attribution><![CDATA[(c)2015 Google - Map data]]></attribution>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0]]></extraHeader>
+		<extraHeader><![CDATA[Referer#http://www.google.com/maps/]]></extraHeader>
 		<usage>photo</usage>
 	</provider>
 	<provider id="10023" type="0" visible="true" background="-1">
 		<name>Google</name>
 		<mode>Terrain</mode>
-		<url><![CDATA[http://mt{s}.google.com/vt/lyrs=t@130,r@207000000&hl=en&src=api&x={x}&y={y}&z={z}]]></url>
+		<url><![CDATA[http://mt{s}.google.com/vt/lyrs=t&x={x}&y={y}&z={z}]]></url>
 		<serverPart>0;1</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
 		<zoomMax>23</zoomMax>
 		<tileSize>256</tileSize>
 		<countries>World</countries>
-		<attribution><![CDATA[(c)2011 Google - Map data (c)2011 Tele Atlas]]></attribution>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
-		<extraHeader><![CDATA[Referer#http://maps.google.com/]]></extraHeader>
+		<attribution><![CDATA[(c)2015 Google - Map data]]></attribution>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0]]></extraHeader>
+		<extraHeader><![CDATA[Referer#http://www.google.com/maps/]]></extraHeader>
 		<usage>road,city</usage>
 	</provider>
 	<!-- not working
@@ -81,6 +81,21 @@
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>road,city</usage>
 	</provider> -->
+	<provider id="10025" type="0" visible="true" background="-1">
+		<name>Google</name>
+		<mode>Terrain, Street</mode>
+		<url><![CDATA[http://mt{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}]]></url>
+		<serverPart>0;1</serverPart>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>23</zoomMax>
+		<tileSize>256</tileSize>
+		<countries>World</countries>
+		<attribution><![CDATA[(c)2015 Google - Map data]]></attribution>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0]]></extraHeader>
+		<extraHeader><![CDATA[Referer#http://www.google.com/maps/]]></extraHeader>
+		<usage>road,city</usage>
+	</provider>
 	<provider id="11715" type="0" visible="true" background="-1">
 		<name>Google</name>
 		<mode>Bike</mode>
@@ -193,8 +208,7 @@
 	-->
 
 
-	<!-- BING maps 
-	seems to be up to date -->
+	<!-- BING maps  -->
 	<provider id="10050" type="5" visible="true" background="-1">
 		<name>Bing</name>
 		<mode>Road</mode>
@@ -237,11 +251,12 @@
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>road,city</usage>
 	</provider>
+	<!-- BING maps, OS Maps, shows same tiles as Bing Street -->
 	<provider id="10053" type="5" visible="true" background="-1">
 		<name>Bing</name>
 		<mode>OS Maps</mode>
 		<countries>England</countries>
-		<url><![CDATA[http://ecn.t3.tiles.virtualearth.net/tiles/r{c}.png?g=604&productSet=mmOS]]></url>
+		<url><![CDATA[http://ak.t3.tiles.virtualearth.net/tiles/r{c}.png?g=604&productSet=mmOS]]></url>
 		<zoomPart>25-{z}</zoomPart>
 		<zoomMin>8</zoomMin>
 		<zoomMax>23</zoomMax>
@@ -524,7 +539,22 @@
 		<usage>nautical</usage>
 	</provider>
 
-	
+
+	<provider id="10095" type="0" visible="true" background="-1">
+		<name>OSM</name>
+		<mode>OSM German Style</mode>
+		<area>World</area>
+		<url><![CDATA[http://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png]]></url>
+		<serverPart>a;b;c;d</serverPart>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>26</zoomMax>
+		<tileSize>256</tileSize>
+		<attribution><![CDATA[<a href="http://www.openstreetmap.de/karte.html">Legal</a> | <a href="http://www.openstreetmap.org/">Street Map data courtesy of openstreetmap</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#http://www.openstreetmap.de/karte.html]]></extraHeader>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; rv:36.0) Gecko/20100101 Firefox/36.0]]></extraHeader>
+	</provider>
+
 	<!-- OUTDOOR ACTIVE maps id="10110" id="10113"-->
 	<!-- remove me...
 	<provider id="10110" type="0" visible="true" background="-1">
@@ -677,7 +707,8 @@
 	-->
 
 
-	<!-- AMUDANAN maps -->
+	<!-- AMUDANAN maps
+	stopped working because of new unknown tile system-->
 	<provider id="10190" type="0" visible="false" background="-1">
 		<name>Amudanan</name>
 		<mode>Topo</mode>
@@ -1676,7 +1707,7 @@
 		<name>Here</name>
 		<mode>Classic</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.base.maps.api.here.com/maptile/2.1/maptile/c0d3b50d72/normal.day/{z}/{x}/{y}/256/png8?&app_id=SqE1xcSngCd3m4a1zEGb&token=r0sR1DzqDkS6sDnh902FWQ]]></url>
+		<url><![CDATA[http://{s}.base.maps.api.here.com/maptile/2.1/maptile/451cf15c7a/normal.day/{z}/{x}/{y}/256/png8?app_id=xWVIueSv6JL0aJ5xqTxb&app_code=djPZyynKsbTjIUDOBcHZ2g&lg=ger&ppi=72]]></url>
 		<serverPart>1;2;3;4</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
@@ -1691,7 +1722,7 @@
 		<name>Here</name>
 		<mode>Hybrid</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.aerial.maps.api.here.com/maptile/2.1/maptile/c0d3b50d72/hybrid.day/{z}/{x}/{y}/256/png8?app_id=SqE1xcSngCd3m4a1zEGb&token=r0sR1DzqDkS6sDnh902FWQ]]></url>
+		<url><![CDATA[http://{s}.aerial.maps.api.here.com/maptile/2.1/maptile/451cf15c7a/hybrid.day/{z}/{x}/{y}/256/png8?app_id=xWVIueSv6JL0aJ5xqTxb&app_code=djPZyynKsbTjIUDOBcHZ2g&lg=ger&ppi=72]]></url>
 		<serverPart>1;2;3;4</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
@@ -1706,7 +1737,7 @@
 		<name>Here</name>
 		<mode>Terrain</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.aerial.maps.api.here.com/maptile/2.1/maptile/c0d3b50d72/terrain.day/{z}/{x}/{y}/256/png8?app_id=SqE1xcSngCd3m4a1zEGb&token=r0sR1DzqDkS6sDnh902FWQ]]></url>
+		<url><![CDATA[http://{s}.aerial.maps.api.here.com/maptile/2.1/maptile/451cf15c7a/terrain.day/{z}/{x}/{y}/256/png8?app_id=xWVIueSv6JL0aJ5xqTxb&app_code=djPZyynKsbTjIUDOBcHZ2g&lg=ger&ppi=72]]></url>
 		<serverPart>1;2;3;4</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
@@ -1999,7 +2030,8 @@
 		<name>ICAO</name>
 		<mode>Airspace</mode>
 		<countries>Germany</countries>
-		<url><![CDATA[https://secais.dfs.de/static-maps/ICAO500-2014-DACH-Reprojected_01/tiles/{z}/{x}/{y}.png]]></url>
+		<url><![CDATA[https://secais.dfs.de/static-maps/ICAO500-2015-DACH-Reprojected_04/tiles/{z}/{x}/{y}.png]]></url>
+		<serverPart>1;2</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>15</zoomMin>
 		<zoomMax>20</zoomMax>
@@ -2009,5 +2041,8 @@
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>aero</usage>
 	</provider>
+
+
+
 
 </providers>
