@@ -752,6 +752,16 @@
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 
+	<provider id="10195" type="0" visible="true" background="-1">
+		<name>OSM</name>
+		<mode>OSM Israel Hiking Map</mode>
+		<countries>Israel</countries>
+		<url><![CDATA[http://www.osm.org.il/IsraelHiking/Tiles/{z}/{x}/{y}.png]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>26</zoomMax>
+		<tileSize>256</tileSize>
+	</provider>
 
 	<!-- Statkart Norway -->
 	<!-- removed because already included inside Locus Store for free
