@@ -1707,7 +1707,7 @@
 		<name>Here</name>
 		<mode>Classic</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.base.maps.api.here.com/maptile/2.1/maptile/451cf15c7a/normal.day/{z}/{x}/{y}/256/png8?app_id=xWVIueSv6JL0aJ5xqTxb&app_code=djPZyynKsbTjIUDOBcHZ2g&lg=ger&ppi=72]]></url>
+		<url><![CDATA[https://{s}.base.maps.api.here.com/maptile/2.1/maptile/527c67f0cf/normal.day/{z}/{x}/{y}/512/png8?app_id=xWVIueSv6JL0aJ5xqTxb&app_code=djPZyynKsbTjIUDOBcHZ2g&lg=eng&ppi=72&pview=DEF]]></url>
 		<serverPart>1;2;3;4</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
@@ -1722,7 +1722,7 @@
 		<name>Here</name>
 		<mode>Hybrid</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.aerial.maps.api.here.com/maptile/2.1/maptile/451cf15c7a/hybrid.day/{z}/{x}/{y}/256/png8?app_id=xWVIueSv6JL0aJ5xqTxb&app_code=djPZyynKsbTjIUDOBcHZ2g&lg=ger&ppi=72]]></url>
+        <url><![CDATA[https://{s}.aerial.maps.api.here.com/maptile/2.1/maptile/527c67f0cf/hybrid.day/{z}/{x}/{y}/512/png8?app_id=xWVIueSv6JL0aJ5xqTxb&app_code=djPZyynKsbTjIUDOBcHZ2g&lg=eng&ppi=72&pview=DEF]]></url>
 		<serverPart>1;2;3;4</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
@@ -1737,7 +1737,7 @@
 		<name>Here</name>
 		<mode>Terrain</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.aerial.maps.api.here.com/maptile/2.1/maptile/451cf15c7a/terrain.day/{z}/{x}/{y}/256/png8?app_id=xWVIueSv6JL0aJ5xqTxb&app_code=djPZyynKsbTjIUDOBcHZ2g&lg=ger&ppi=72]]></url>
+		<url><![CDATA[https://{s}.aerial.maps.api.here.com/maptile/2.1/maptile/527c67f0cf/terrain.day/{z}/{x}/{y}/512/png8?app_id=xWVIueSv6JL0aJ5xqTxb&app_code=djPZyynKsbTjIUDOBcHZ2g&lg=eng&ppi=72&pview=DEF]]></url>
 		<serverPart>1;2;3;4</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
@@ -1748,7 +1748,6 @@
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
 		<usage>road,city</usage>
 	</provider>
-
 
 	<!-- Falk maps -->
 	<provider id="10720" type="0" visible="true" background="-1">
