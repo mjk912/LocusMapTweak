@@ -2006,14 +2006,14 @@
 		<name>TomTom</name>
 		<mode>Classic</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.api.internal.tomtom.com/lbs/map/3/basic/1/{z}/{x}/{y}.png?key=dvbfcb88hkrje9ur2fs84uxn]]></url>
+		<url><![CDATA[https://{s}.api-internal.tomtom.com/map/1/tile/basic/main/{z}/{x}/{y}.png?key=x7es9779w29jcm3yhqgvwunf]]></url>
 		<serverPart>a;b;c;d</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
 		<zoomMax>24</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[TomTom]]></attribution>
-		<extraHeader><![CDATA[Referer#http://routes.tomtom.com/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://mydrive.tomtom.com/en_gb/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
 		<usage>road,city</usage>
 	</provider>	
@@ -2021,14 +2021,14 @@
 		<name>TomTom</name>
 		<mode>Traffic - Overlay</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.api.internal.tomtom.com/lbs/map/3/traffic/s2/{z}/{x}/{y}.png?key=dvbfcb88hkrje9ur2fs84uxn]]></url>
+		<url><![CDATA[https://{s}.api-internal.tomtom.com/lbs/map/3/traffic/night/{z}/{x}/{y}.png?key=w7wd5devk7b9ejxfpx5jct48]]></url>
 		<serverPart>a;b;c;d</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
 		<zoomMax>24</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[TomTom]]></attribution>
-		<extraHeader><![CDATA[Referer#http://routes.tomtom.com/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://mydrive.tomtom.com/en_gb/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
 		<usage>overlay</usage>
 	</provider>	
