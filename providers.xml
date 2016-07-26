@@ -763,6 +763,54 @@
 		<tileSize>256</tileSize>
 	</provider>
 
+    <provider id="10201" type="0" visible="true" background="-1">
+        <name>MapQuest</name>
+		<mode>Classic</mode>
+		<url><![CDATA[https://{s}.tiles.mapbox.com/v4/mapquest.streets-mb/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwcXVlc3QiLCJhIjoiY2Q2N2RlMmNhY2NiZTRkMzlmZjJmZDk0NWU0ZGJlNTMifQ.mPRiEubbajc6a5y9ISgydg]]></url>
+		<serverPart>a;b;c;d</serverPart>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>30</zoomMax>
+		<tileSize>256</tileSize>
+		<countries>World</countries>
+		<attribution><![CDATA[(c)2016 MapQuest - OpenStreetMap]]></attribution>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://www.mapquest.com]]></extraHeader>
+		<usage>road,city</usage>
+	</provider>
+    
+    <provider id="10201" type="0" visible="true" background="-1">
+        <name>MapQuest</name>
+		<mode>Classic</mode>
+		<url><![CDATA[https://{s}.tiles.mapbox.com/v4/mapquest.satellite-mb/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwcXVlc3QiLCJhIjoiY2Q2N2RlMmNhY2NiZTRkMzlmZjJmZDk0NWU0ZGJlNTMifQ.mPRiEubbajc6a5y9ISgydg]]></url>
+        <serverPart>a;b;c;d</serverPart>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>30</zoomMax>
+		<tileSize>256</tileSize>
+		<countries>World</countries>
+		<attribution><![CDATA[(c)2016 MapQuest - MapBox - OpenStreetMap]]></attribution>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://www.mapquest.com]]></extraHeader>
+		<usage>road,city</usage>
+	</provider>
+        
+    <provider id="10202" type="0" visible="true" background="-1">
+        <name>MapQuest</name>
+		<mode>Hybrid</mode>
+		<url><![CDATA[https://{s}.tiles.mapbox.com/v4/mapquest.satellite-mb/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwcXVlc3QiLCJhIjoiY2Q2N2RlMmNhY2NiZTRkMzlmZjJmZDk0NWU0ZGJlNTMifQ.mPRiEubbajc6a5y9ISgydg]]></url>
+		<serverPart>a;b;c;d</serverPart>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>30</zoomMax>
+		<tileSize>256</tileSize>
+		<countries>World</countries>
+		<attribution><![CDATA[(c)2016 MapQuest - MapBox - OpenStreetMap]]></attribution>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://www.mapquest.com]]></extraHeader>
+		<usage>photo</usage>
+	</provider>
+
 	<!-- Statkart Norway -->
 	<!-- removed because already included inside Locus Store for free
 	<provider id="10200" type="0" visible="true" background="-1">
@@ -1778,89 +1826,12 @@
 
 
 	<!-- MapBox maps -->
-	<!-- stopped working
 	<provider id="10800" type="0" visible="true" background="-1">
 		<name>MapBox</name>
 		<mode>Classic</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-vyofok3q/{z}/{x}/{y}.png]]></url>
-		<serverPart>a;b</serverPart>
-		<zoomPart>{z}-8</zoomPart>
-		<zoomMin>8</zoomMin>
-		<zoomMax>30</zoomMax>
-		<tileSize>256</tileSize>
-		<attribution><![CDATA[MapBox]]></attribution>
-		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
-		<usage>road,city</usage>
-	</provider> -->
-	<provider id="10801" type="0" visible="true" background="-1">
-		<name>MapBox</name>
-		<mode>Classic - Orange</mode>
-		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-e3z60292/{z}/{x}/{y}.png]]></url>
-		<serverPart>a;b</serverPart>
-		<zoomPart>{z}-8</zoomPart>
-		<zoomMin>8</zoomMin>
-		<zoomMax>30</zoomMax>
-		<tileSize>256</tileSize>
-		<attribution><![CDATA[MapBox]]></attribution>
-		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
-		<usage>road,city</usage>
-	</provider>
-	<provider id="10802" type="0" visible="true" background="-1">
-		<name>MapBox</name>
-		<mode>Classic - Dark</mode>
-		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-cnkhv76j/{z}/{x}/{y}.png]]></url>
-		<serverPart>a;b</serverPart>
-		<zoomPart>{z}-8</zoomPart>
-		<zoomMin>8</zoomMin>
-		<zoomMax>30</zoomMax>
-		<tileSize>256</tileSize>
-		<attribution><![CDATA[MapBox]]></attribution>
-		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
-		<usage>road,city</usage>
-	</provider>
-	<!-- stopped working
-	<provider id="10803" type="0" visible="true" background="-1">
-		<name>MapBox</name>
-		<mode>Terrain - Green</mode>
-		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-9ijuk24y/{z}/{x}/{y}.png]]></url>
-		<serverPart>a;b</serverPart>
-		<zoomPart>{z}-8</zoomPart>
-		<zoomMin>8</zoomMin>
-		<zoomMax>30</zoomMax>
-		<tileSize>256</tileSize>
-		<attribution><![CDATA[MapBox]]></attribution>
-		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
-		<usage>road,city</usage>
-	</provider> -->
-	<provider id="10804" type="0" visible="true" background="-1">
-		<name>MapBox</name>
-		<mode>Terrain - Brown</mode>
-		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-qogxobv1/{z}/{x}/{y}.png]]></url>
-		<serverPart>a;b</serverPart>
-		<zoomPart>{z}-8</zoomPart>
-		<zoomMin>8</zoomMin>
-		<zoomMax>30</zoomMax>
-		<tileSize>256</tileSize>
-		<attribution><![CDATA[MapBox]]></attribution>
-		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
-		<usage>road,city</usage>
-	</provider>
-	<provider id="10805" type="0" visible="true" background="-1">
-		<name>MapBox</name>
-		<mode>Terrain - Grey</mode>
-		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-9d0r2yso/{z}/{x}/{y}.png]]></url>
-		<serverPart>a;b</serverPart>
+		<url><![CDATA[https://{s}.tiles.mapbox.com/v4/mapquest.streets-mb/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwcXVlc3QiLCJhIjoiY2Q2N2RlMmNhY2NiZTRkMzlmZjJmZDk0NWU0ZGJlNTMifQ.mPRiEubbajc6a5y9ISgydg]]></url>
+		<serverPart>a;b;c;d</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
 		<zoomMax>30</zoomMax>
@@ -1874,47 +1845,18 @@
 		<name>MapBox</name>
 		<mode>Hybrid</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-qfyrx5r8/{z}/{x}/{y}.png]]></url>
-		<serverPart>a;b</serverPart>
+		<url><![CDATA[https://{s}.tiles.mapbox.com/v4/mapquest.satellite-mb/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwcXVlc3QiLCJhIjoiY2Q2N2RlMmNhY2NiZTRkMzlmZjJmZDk0NWU0ZGJlNTMifQ.mPRiEubbajc6a5y9ISgydg]]></url>
+		<serverPart>a;b;c;d</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
-		<zoomMax>27</zoomMax>
+		<zoomMax>30</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[MapBox]]></attribution>
 		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
 		<usage>photo</usage>
 	</provider>
-	<provider id="10807" type="0" visible="true" background="-1">
-		<name>MapBox</name>
-		<mode>Satellite</mode>
-		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-b70jh5xu/{z}/{x}/{y}.png]]></url>
-		<serverPart>a;b</serverPart>
-		<zoomPart>{z}-8</zoomPart>
-		<zoomMin>8</zoomMin>
-		<zoomMax>27</zoomMax>
-		<tileSize>256</tileSize>
-		<attribution><![CDATA[MapBox]]></attribution>
-		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
-		<usage>photo</usage>
-	</provider>
-	<provider id="10808" type="0" visible="true" background="-1">
-		<name>MapBox</name>
-		<mode>Satellite - Grey</mode>
-		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.mapbox.com/v3/examples.map-8ly8i7pv/{z}/{x}/{y}.png]]></url>
-		<serverPart>a;b</serverPart>
-		<zoomPart>{z}-8</zoomPart>
-		<zoomMin>8</zoomMin>
-		<zoomMax>27</zoomMax>
-		<tileSize>256</tileSize>
-		<attribution><![CDATA[MapBox]]></attribution>
-		<extraHeader><![CDATA[Referer#https://www.mapbox.com/tour/]]></extraHeader>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0]]></extraHeader>
-		<usage>photo</usage>
-	</provider>
+
 
 
 	<!-- IGN-Geoportail France maps -->
