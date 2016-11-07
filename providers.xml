@@ -482,10 +482,12 @@
 
 	
 	<!-- ENIRO maps -->
+	<!-- About to get removed. Read more: http://help.locusmap.eu/topic/eniro-maps-fails -->
 	<provider id="10090" type="1" visible="true" background="-1">
 		<name>Eniro</name>
 		<mode>Classic</mode>
 		<countries>North Europe</countries>
+
 		<url><![CDATA[http://map01.eniro.no/geowebcache/service/tms1.0.0/map/{z}/{x}/{y}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>12</zoomMin>
@@ -493,49 +495,52 @@
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© Karttakeskus. Lantmäteriet/Metria]]></attribution>
 		<extraHeader><![CDATA[Referer#http://kartor.eniro.se/]]></extraHeader>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]]></extraHeader>
 		<usage>road,city</usage>
 	</provider>
 	<provider id="10091" type="1" visible="true" background="-1">
 		<name>Eniro</name>
 		<mode>Aerial</mode>
-		<countries>North Europe</countries>
-		<url><![CDATA[http://map01.eniro.no/geowebcache/service/tms1.0.0/aerial/{z}/{x}/{y}.jpeg]]></url>
+		<countries>North Europe</countries>	
+		<url><![CDATA[http://map{s}.eniro.no/geowebcache/service/tms1.0.0/aerial/{z}/{x}/{y}.jpeg]]></url>
+		<serverPart>01;02;03;04</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>12</zoomMin>
 		<zoomMax>28</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© Karttakeskus. Lantmäteriet/Metria]]></attribution>
 		<extraHeader><![CDATA[Referer#http://kartor.eniro.se/]]></extraHeader>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]]></extraHeader>
 		<usage>photo</usage>
 	</provider>
 	<provider id="10092" type="1" visible="true" background="10091">
 		<name>Eniro</name>
 		<mode>Hybrid</mode>
-		<countries>North Europe</countries>
-		<url><![CDATA[http://map01.eniro.no/geowebcache/service/tms1.0.0/hybrid/{z}/{x}/{y}.png]]></url>
+		<countries>North Europe</countries>			
+		<url><![CDATA[http://map{s}.eniro.no/geowebcache/service/tms1.0.0/hybrid/{z}/{x}/{y}.png]]></url>
+		<serverPart>01;02;03;04</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>12</zoomMin>
 		<zoomMax>28</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© Karttakeskus. Lantmäteriet/Metria]]></attribution>
 		<extraHeader><![CDATA[Referer#http://kartor.eniro.se/]]></extraHeader>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]]></extraHeader>
 		<usage>photo</usage>
 	</provider>
 	<provider id="10093" type="1" visible="true" background="-1">
 		<name>Eniro</name>
 		<mode>Nautical</mode>
 		<countries>North Europe</countries>
-		<url><![CDATA[http://map01.eniro.no/geowebcache/service/tms1.0.0/nautical/{z}/{x}/{y}.png]]></url>
+		<url><![CDATA[http://map{s}.eniro.no/geowebcache/service/tms1.0.0/nautical/{z}/{x}/{y}.png]]></url>
+		<serverPart>01;02;03;04</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>12</zoomMin>
 		<zoomMax>24</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© Karttakeskus. Lantmäteriet/Metria]]></attribution>
 		<extraHeader><![CDATA[Referer#http://kartor.eniro.se/]]></extraHeader>
-		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]]></extraHeader>
 		<usage>nautical</usage>
 	</provider>
 
