@@ -2054,5 +2054,17 @@
 		<usage>overlay</usage>
 	</provider>
 
+	<!-- Mapillary Overlay -->
+	<provider id="10920" type="0" visible="true" background="-1">
+		<name>Mapillary</name>
+		<mode>Mapillary Traces Overlay</mode>
+		<url><![CDATA[https://d6a1v2w10ny40.cloudfront.net/v0.1/{z}/{x}/{y}.png]]></url>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>8</zoomMin>
+		<zoomMax>25</zoomMax>
+		<tileSize>256</tileSize>
+		<countries>World</countries>
+		<usage>overlay</usage>
+	</provider>
 
 </providers>
