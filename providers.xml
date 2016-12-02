@@ -2064,6 +2064,9 @@
 		<zoomMax>25</zoomMax>
 		<tileSize>256</tileSize>
 		<countries>World</countries>
+		<attribution><![CDATA[© mappillary.io]]></attribution>
+		<extraHeader><![CDATA[Referer#http://mm.mapillary.io/]]></extraHeader>
+		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0]]></extraHeader>
 		<usage>overlay</usage>
 	</provider>
 
