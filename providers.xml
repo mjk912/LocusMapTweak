@@ -2070,4 +2070,43 @@
 		<usage>overlay</usage>
 	</provider>
 
+	<provider id="10930" type="0" visible="true" background="-1">
+		<name>OpenRailwayMap</name>
+		<mode>Infrastructure</mode>
+		<countries>World</countries>
+		<url><![CDATA[http://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png]]></url>
+		<serverPart>a;b;c</serverPart>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>10</zoomMin>
+		<zoomMax>27</zoomMax>
+		<tileSize>256</tileSize>
+		<usage>overlay</usage>
+	</provider>
+
+	<provider id="10931" type="0" visible="true" background="-1">
+		<name>OpenRailwayMap</name>
+		<mode>Maxspeeds</mode>
+		<countries>World</countries>
+		<url><![CDATA[http://{s}.tiles.openrailwaymap.org/maxspeed/{z}/{x}/{y}.png]]></url>
+		<serverPart>a;b;c</serverPart>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>10</zoomMin>
+		<zoomMax>27</zoomMax>
+		<tileSize>256</tileSize>
+		<usage>overlay</usage>
+	</provider>
+
+	<provider id="10932" type="0" visible="true" background="-1">
+		<name>OpenRailwayMap</name>
+		<mode>Signalling</mode>
+		<countries>World</countries>
+		<url><![CDATA[http://{s}.tiles.openrailwaymap.org/signal/{z}/{x}/{y}.png]]></url>
+		<serverPart>a;b;c</serverPart>
+		<zoomPart>{z}-8</zoomPart>
+		<zoomMin>10</zoomMin>
+		<zoomMax>27</zoomMax>
+		<tileSize>256</tileSize>
+		<usage>overlay</usage>
+	</provider>
+
 </providers>
