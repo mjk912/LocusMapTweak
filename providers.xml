@@ -2100,7 +2100,7 @@
 		<name>OpenRailwayMap</name>
 		<mode>Signalling</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.openrailwaymap.org/signal/{z}/{x}/{y}.png]]></url>
+		<url><![CDATA[http://{s}.tiles.openrailwaymap.org/signals/{z}/{x}/{y}.png]]></url>
 		<serverPart>a;b;c</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
