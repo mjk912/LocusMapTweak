@@ -1852,14 +1852,14 @@
 	<provider id="10830" type="0" visible="true" background="-1">
 		<name>Geoportail</name>
 		<mode>Map</mode>
-		<url><![CDATA[http://wxs.ign.fr/6qcguib31zj0w42ht311a1lz/geoportail/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GEOGRAPHICALGRIDSYSTEMS.MAPS&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image/jpeg]]></url>
+		<url><![CDATA[http://wxs.ign.fr/an7nvfzojv5wa96dsga5nk8w/geoportail/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GEOGRAPHICALGRIDSYSTEMS.MAPS&STYLE=normal&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}&FORMAT=image/jpeg]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
 		<zoomMax>26</zoomMax>
 		<tileSize>256</tileSize>
 		<countries>France</countries>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 5.1; rv:26.0) Gecko/20100101 Firefox/26.0]]></extraHeader>
-		<extraHeader><![CDATA[Referer#http://m.geoportail.fr/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://www.geoportail.gouv.fr/carte]]></extraHeader>
 		<usage>road,city</usage>
 	</provider>
 	<provider id="10831" type="0" visible="true" background="-1">
