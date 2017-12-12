@@ -2046,7 +2046,7 @@
 		<name>Waymarked Trails</name>
 		<mode>Winter Sport Slopes</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://tile.waymarkedtrails.org/slopemap/{z}/{x}/{y}.png]]></url>
+		<url><![CDATA[http://tile.waymarkedtrails.org/slopes/{z}/{x}/{y}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>8</zoomMin>
 		<zoomMax>26</zoomMax>
