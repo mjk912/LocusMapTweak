@@ -2074,12 +2074,13 @@
 		<name>OpenRailwayMap</name>
 		<mode>Infrastructure</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png]]></url>
+		<url><![CDATA[http://{s}.tiles.openrailwaymap.org/{ts}/{z}/{x}/{y}.png]]></url>
 		<serverPart>a;b;c</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>27</zoomMax>
 		<tileSize>256</tileSize>
+		<tileScale dpi="0" multi="2.0" replace="standard" />
 		<usage>overlay</usage>
 	</provider>
 
@@ -2087,12 +2088,13 @@
 		<name>OpenRailwayMap</name>
 		<mode>Maxspeeds</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.openrailwaymap.org/maxspeed/{z}/{x}/{y}.png]]></url>
+		<url><![CDATA[http://{s}.tiles.openrailwaymap.org/{ts}/{z}/{x}/{y}.png]]></url>
 		<serverPart>a;b;c</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>27</zoomMax>
 		<tileSize>256</tileSize>
+		<tileScale dpi="0" multi="2.0" replace="maxspeed" />
 		<usage>overlay</usage>
 	</provider>
 
@@ -2100,12 +2102,13 @@
 		<name>OpenRailwayMap</name>
 		<mode>Signalling</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://{s}.tiles.openrailwaymap.org/signals/{z}/{x}/{y}.png]]></url>
+		<url><![CDATA[http://{s}.tiles.openrailwaymap.org/{ts}/{z}/{x}/{y}.png]]></url>
 		<serverPart>a;b;c</serverPart>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>27</zoomMax>
 		<tileSize>256</tileSize>
+		<tileScale dpi="0" multi="2.0" replace="signals" />
 		<usage>overlay</usage>
 	</provider>
 
